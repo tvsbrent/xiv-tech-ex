@@ -22,6 +22,6 @@
    "node" : "0.12.5"
   },
   "scripts": {
-    "start" : "node bin/server.js"
+    "start" : "node ./bin/server.js"
   }
 }
