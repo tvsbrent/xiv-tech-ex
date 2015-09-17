@@ -2,17 +2,20 @@
   "name": "xiv-tech-ex",
   "version": "0.0.1",
   "description": "Xively Technical Exercise",
-  "main": "index.js",
+  "main": "bin/server.js",
+  "author": "Brent Schmidt",
+  "license": "ISC",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  repository : {
-    "type"  : "git",
-    "url"   : "https://github.com/tvsbrent/xiv-tech-ex.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tvsbrent/xiv-tech-ex.git"
   },
-  "author": "Brent Schmidt",
-  "license": "ISC",
   "dependencies": {
-    "hapi": "^10.0.0"
+    "good": "^6.3.0",
+    "good-console": "^5.0.3",
+    "hapi": "^10.0.0",
+    "inert": "^3.0.1"
   }
 }
